@@ -1,13 +1,13 @@
 #一个简单的Rust Tcp 代理
-https://github.com/ZekeMedley/tcp-proxy
+https://github.com/ZekeMedley/tcp-proxy  
 ### 基准测试
-1.启动代理
-`cargo run -- -c 0.0.0.0:1212 -s 127.0.0.1:1313`
-2.在另一个窗口中监听源端口
-`nc -l 1313 > /dev/null`
-3.从另一个窗口发送一堆流量
-`dd if=/dev/zero bs=1024 count=9000000 | nc -v 127.0.0.1 1212`
-`管道符号‘|’ 命令1的正确输出作为命令2的操作对象`
+1.启动代理  
+`cargo run -- -c 0.0.0.0:1212 -s 127.0.0.1:1313`  
+2.在另一个窗口中监听源端口  
+`nc -l 1313 > /dev/null`  
+3.从另一个窗口发送一堆流量  
+`dd if=/dev/zero bs=1024 count=9000000 | nc -v 127.0.0.1 1212`  
+`管道符号‘|’ 命令1的正确输出作为命令2的操作对象`  
 
 #### linux dd命令的解释
 dd: 用制定大小的块拷贝到一个文件，并在拷贝的同时进行指定的转换。
