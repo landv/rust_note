@@ -12,3 +12,4 @@ Cargo.lock
 /tcp_proxy/target/
 /HelloWorld/.idea/
 .idea
+/cross_complie/target/
