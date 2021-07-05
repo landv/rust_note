@@ -11,12 +11,12 @@ Rust 丰富的类型系统和所有权模型保证了内存安全和线程安全
 *生产力*
 Rust 拥有出色的文档、友好的编译器和清晰的错误提示信息， 还集成了一流的工具——包管理器和构建工具， 智能地自动补全和类型检验的多编辑器支持， 以及自动格式化代码等等。  
 # 安装Rust
-使用 Rustup（推荐）
-https://www.rust-lang.org/zh-CN/tools/install
-linux/mac
-`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-windows
-https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe
+使用 Rustup（推荐）  
+https://www.rust-lang.org/zh-CN/tools/install  
+linux/mac  
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`  
+windows  
+https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe  
 
 *用 rustup 管理工具链*
 Rust 由工具 rustup 安装和管理。Rust 有着以 6 星期为周期的 快速版本迭代机制，支持 大量平台，因而不同时期存在大量不同的 Rust 构建版本。  
