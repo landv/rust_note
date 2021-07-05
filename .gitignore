@@ -13,3 +13,4 @@ Cargo.lock
 /HelloWorld/.idea/
 .idea
 /cross_complie/target/
+/guessing_game/target/
